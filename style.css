@@ -5,17 +5,20 @@
 }
 
 @media (max-width: 576px) {
+  #hello {
+    font-size: 36px;
+  }
+
   #dev-name {
     font-size: 40px;
   }
 
-  #hello {
-    font-size: 36px;
+  #sub-heading {
+    font-size: 22px;
   }
-  .app-1,
-  .app-2,
-  .app-3 {
-    text-align: center;
+
+  .navigation-links a {
+    margin: 8px;
   }
 
   .app-section {
@@ -24,6 +27,26 @@
 
   .app-section h2 {
     font-size: 40px;
+  }
+
+  .app-1,
+  .app-2,
+  .app-3 {
+    text-align: center;
+  }
+
+  .app-3 {
+    margin-top: -55px;
+  }
+}
+
+#app-link {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .navigation-links a {
+    margin: 20px;
   }
 }
 
@@ -59,10 +82,6 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
 }
 
 .primary-link {
