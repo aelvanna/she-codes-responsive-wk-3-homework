@@ -4,6 +4,29 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  #dev-name {
+    font-size: 40px;
+  }
+
+  #hello {
+    font-size: 36px;
+  }
+  .app-1,
+  .app-2,
+  .app-3 {
+    text-align: center;
+  }
+
+  .app-section {
+    margin-top: -50px;
+  }
+
+  .app-section h2 {
+    font-size: 40px;
+  }
+}
+
 body {
   margin-top: 100px;
 }
