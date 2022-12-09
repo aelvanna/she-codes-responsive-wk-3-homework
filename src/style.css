@@ -13,7 +13,7 @@
     font-size: 40px;
   }
 
-  #sub-heading {
+  h3#sub-heading {
     font-size: 22px;
   }
 
@@ -71,6 +71,11 @@ h1,
 h2,
 h3 {
   margin: 0;
+}
+
+#sub-heading {
+  opacity: 0.7;
+  font-size: 30px;
 }
 
 p {
